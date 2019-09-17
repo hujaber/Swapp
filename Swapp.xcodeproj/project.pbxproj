@@ -20,6 +20,9 @@
 		D7CE2D852331183C00E4434B /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2D842331183C00E4434B /* Categories.storyboard */; };
 		D7CE2D88233118CF00E4434B /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D87233118CF00E4434B /* UIViewController+Extensions.swift */; };
 		D7CE2D8A233119AF00E4434B /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D89233119AF00E4434B /* UITableView+Extensions.swift */; };
+		D7CE2D8D23311BF600E4434B /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D8C23311BF600E4434B /* MainTabController.swift */; };
+		D7CE2D902331252400E4434B /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D8F2331252400E4434B /* SearchController.swift */; };
+		D7CE2D922331255F00E4434B /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2D912331255F00E4434B /* Search.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		D7CE2D842331183C00E4434B /* Categories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Categories.storyboard; sourceTree = "<group>"; };
 		D7CE2D87233118CF00E4434B /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		D7CE2D89233119AF00E4434B /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		D7CE2D8C23311BF600E4434B /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		D7CE2D8F2331252400E4434B /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		D7CE2D912331255F00E4434B /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		E8FA6C16B24DC79DE0ECF7A2 /* Pods-Swapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swapp.debug.xcconfig"; path = "Target Support Files/Pods-Swapp/Pods-Swapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +145,8 @@
 		D7CE2D7D2331172600E4434B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D7CE2D8E2331251300E4434B /* SearchView */,
+				D7CE2D8B23311BE300E4434B /* Tabbar */,
 				D7CE2D7E2331178C00E4434B /* CategoryView */,
 			);
 			path = Views;
@@ -159,6 +167,7 @@
 				D7CE2D632330E64400E4434B /* LaunchScreen.storyboard */,
 				D7CE2D822331180900E4434B /* Storyboard.swift */,
 				D7CE2D842331183C00E4434B /* Categories.storyboard */,
+				D7CE2D912331255F00E4434B /* Search.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -170,6 +179,22 @@
 				D7CE2D89233119AF00E4434B /* UITableView+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7CE2D8B23311BE300E4434B /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE2D8C23311BF600E4434B /* MainTabController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		D7CE2D8E2331251300E4434B /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE2D8F2331252400E4434B /* SearchController.swift */,
+			);
+			path = SearchView;
 			sourceTree = "<group>";
 		};
 		EEED4634E89FE13AF8578566 /* Pods */ = {
@@ -271,6 +296,7 @@
 				D7CE2D622330E64400E4434B /* Assets.xcassets in Resources */,
 				D7CE2D852331183C00E4434B /* Categories.storyboard in Resources */,
 				D7CE2D602330E64200E4434B /* Main.storyboard in Resources */,
+				D7CE2D922331255F00E4434B /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +380,8 @@
 			files = (
 				D7CE2D832331180900E4434B /* Storyboard.swift in Sources */,
 				D7CE2D80233117C200E4434B /* CategoriesController.swift in Sources */,
+				D7CE2D8D23311BF600E4434B /* MainTabController.swift in Sources */,
+				D7CE2D902331252400E4434B /* SearchController.swift in Sources */,
 				D7CE2D88233118CF00E4434B /* UIViewController+Extensions.swift in Sources */,
 				D7CE2D8A233119AF00E4434B /* UITableView+Extensions.swift in Sources */,
 				D7CE2D592330E64200E4434B /* AppDelegate.swift in Sources */,

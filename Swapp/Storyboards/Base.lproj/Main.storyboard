@@ -20,5 +20,19 @@
             </objects>
             <point key="canvasLocation" x="126" y="676"/>
         </scene>
+        <!--Main Tab Controller-->
+        <scene sceneID="0xB-Yk-bnY">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabController" id="hvM-Ar-Bn9" customClass="MainTabController" customModule="Swapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="F8L-GW-MCO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6q-oI-mzE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071" y="688"/>
+        </scene>
     </scenes>
 </document>

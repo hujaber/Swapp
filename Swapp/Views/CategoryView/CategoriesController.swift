@@ -10,8 +10,15 @@ import UIKit
 
 class CategoriesController: UIViewController {
 
+    @IBOutlet private weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = "Categories"
+        setupTableView()
     }
     
+    private func setupTableView() {
+        tableView.tableFooterView = .init()
+    }
 }

@@ -19,9 +19,10 @@ final class ApplicationCoordinator {
     }
     
     func start() {
-        let categories = CategoriesController.controllerInStoryboard(.Categories)
+        let main = MainTabController.controllerInStoryboard(.Main)
         
-        navigationController = .init(rootViewController: categories)
+        navigationController = .init(rootViewController: main)
+        navigationController.setNavigationBarHidden(true, animated: false)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
     }
