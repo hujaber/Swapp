@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CategoriesController.swift
 //  Swapp
 //
 //  Created by Hussein Jaber on 17/9/19.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CategoriesController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
 }
-
