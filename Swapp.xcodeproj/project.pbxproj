@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		95D77E38E2FAC96EDAECF5BF /* Pods_Swapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F43E8D98D89C2913CF1F47A /* Pods_Swapp.framework */; };
 		97FD060B5C478AB4A84792AD /* Pods_SwappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C32532F4D7897F0AAE9F12 /* Pods_SwappTests.framework */; };
+		D782AACD2334C1F400FC28F9 /* CategoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AACC2334C1F400FC28F9 /* CategoriesCoordinator.swift */; };
+		D782AACF2334C47300FC28F9 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AACE2334C47300FC28F9 /* SearchCoordinator.swift */; };
+		D782AAD22334CD2700FC28F9 /* StoresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AAD12334CD2700FC28F9 /* StoresController.swift */; };
 		D7CE2D592330E64200E4434B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D582330E64200E4434B /* AppDelegate.swift */; };
 		D7CE2D602330E64200E4434B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2D5E2330E64200E4434B /* Main.storyboard */; };
 		D7CE2D622330E64400E4434B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2D612330E64400E4434B /* Assets.xcassets */; };
@@ -35,6 +38,8 @@
 		D7CE2DAB2332368300E4434B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2DAA2332368300E4434B /* APIService.swift */; };
 		D7CE2DD123325CFD00E4434B /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2DD023325CFD00E4434B /* CategoriesViewModel.swift */; };
 		D7CE2DD32332609200E4434B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2DD22332609200E4434B /* Store.swift */; };
+		D7CE2DD7233383BF00E4434B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2DD5233383BF00E4434B /* CategoryCell.swift */; };
+		D7CE2DD8233383BF00E4434B /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2DD6233383BF00E4434B /* CategoryCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,9 @@
 		0AD2BFCB56ABE231CC7A267F /* Pods-Swapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swapp.release.xcconfig"; path = "Target Support Files/Pods-Swapp/Pods-Swapp.release.xcconfig"; sourceTree = "<group>"; };
 		7C453000D5EAA2ADD9939687 /* Pods-SwappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwappTests.debug.xcconfig"; path = "Target Support Files/Pods-SwappTests/Pods-SwappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F43E8D98D89C2913CF1F47A /* Pods_Swapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D782AACC2334C1F400FC28F9 /* CategoriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCoordinator.swift; sourceTree = "<group>"; };
+		D782AACE2334C47300FC28F9 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		D782AAD12334CD2700FC28F9 /* StoresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresController.swift; sourceTree = "<group>"; };
 		D7CE2D552330E64200E4434B /* Swapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CE2D582330E64200E4434B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CE2D5F2330E64200E4434B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +91,8 @@
 		D7CE2DAA2332368300E4434B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		D7CE2DD023325CFD00E4434B /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
 		D7CE2DD22332609200E4434B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		D7CE2DD5233383BF00E4434B /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		D7CE2DD6233383BF00E4434B /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
 		E8FA6C16B24DC79DE0ECF7A2 /* Pods-Swapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swapp.debug.xcconfig"; path = "Target Support Files/Pods-Swapp/Pods-Swapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +125,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D782AACB2334C1E600FC28F9 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D782AACC2334C1F400FC28F9 /* CategoriesCoordinator.swift */,
+				D782AACE2334C47300FC28F9 /* SearchCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D782AAD02334CD0D00FC28F9 /* StoresView */ = {
+			isa = PBXGroup;
+			children = (
+				D782AAD12334CD2700FC28F9 /* StoresController.swift */,
+			);
+			path = StoresView;
+			sourceTree = "<group>";
+		};
 		D7CE2D4C2330E64200E4434B = {
 			isa = PBXGroup;
 			children = (
@@ -138,12 +165,12 @@
 		D7CE2D572330E64200E4434B /* Swapp */ = {
 			isa = PBXGroup;
 			children = (
-				D7CE2DA0233227C100E4434B /* Model */,
-				D7CE2D93233221DE00E4434B /* Network */,
 				D7CE2D7A2330E68100E4434B /* Application */,
 				D7CE2D612330E64400E4434B /* Assets.xcassets */,
 				D7CE2D862331188B00E4434B /* Extensions */,
 				D7CE2D662330E64400E4434B /* Info.plist */,
+				D7CE2DA0233227C100E4434B /* Model */,
+				D7CE2D93233221DE00E4434B /* Network */,
 				D7CE2D81233117E200E4434B /* Storyboards */,
 				D7CE2D7D2331172600E4434B /* Views */,
 			);
@@ -171,9 +198,11 @@
 		D7CE2D7D2331172600E4434B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D7CE2D8E2331251300E4434B /* SearchView */,
-				D7CE2D8B23311BE300E4434B /* Tabbar */,
 				D7CE2D7E2331178C00E4434B /* CategoryView */,
+				D782AACB2334C1E600FC28F9 /* Coordinators */,
+				D7CE2D8E2331251300E4434B /* SearchView */,
+				D782AAD02334CD0D00FC28F9 /* StoresView */,
+				D7CE2D8B23311BE300E4434B /* Tabbar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +210,7 @@
 		D7CE2D7E2331178C00E4434B /* CategoryView */ = {
 			isa = PBXGroup;
 			children = (
+				D7CE2DD4233383AB00E4434B /* UI */,
 				D7CE2D7F233117C200E4434B /* CategoriesController.swift */,
 				D7CE2DD023325CFD00E4434B /* CategoriesViewModel.swift */,
 			);
@@ -263,6 +293,15 @@
 				D7CE2DD22332609200E4434B /* Store.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D7CE2DD4233383AB00E4434B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE2DD5233383BF00E4434B /* CategoryCell.swift */,
+				D7CE2DD6233383BF00E4434B /* CategoryCell.xib */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		EEED4634E89FE13AF8578566 /* Pods */ = {
@@ -361,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7CE2D652330E64400E4434B /* LaunchScreen.storyboard in Resources */,
+				D7CE2DD8233383BF00E4434B /* CategoryCell.xib in Resources */,
 				D7CE2D622330E64400E4434B /* Assets.xcassets in Resources */,
 				D7CE2D852331183C00E4434B /* Categories.storyboard in Resources */,
 				D7CE2D602330E64200E4434B /* Main.storyboard in Resources */,
@@ -450,9 +490,12 @@
 				D7CE2D832331180900E4434B /* Storyboard.swift in Sources */,
 				D7CE2DA82332308100E4434B /* HTTPOperation.swift in Sources */,
 				D7CE2D9C2332241A00E4434B /* SessionConfiguration.swift in Sources */,
+				D782AACD2334C1F400FC28F9 /* CategoriesCoordinator.swift in Sources */,
+				D782AAD22334CD2700FC28F9 /* StoresController.swift in Sources */,
 				D7CE2D80233117C200E4434B /* CategoriesController.swift in Sources */,
 				D7CE2D8D23311BF600E4434B /* MainTabController.swift in Sources */,
 				D7CE2D9A233223BC00E4434B /* NetworkSession.swift in Sources */,
+				D782AACF2334C47300FC28F9 /* SearchCoordinator.swift in Sources */,
 				D7CE2D902331252400E4434B /* SearchController.swift in Sources */,
 				D7CE2D88233118CF00E4434B /* UIViewController+Extensions.swift in Sources */,
 				D7CE2DA6233229CA00E4434B /* Response.swift in Sources */,
@@ -463,6 +506,7 @@
 				D7CE2D98233222FC00E4434B /* Environment.swift in Sources */,
 				D7CE2DD32332609200E4434B /* Store.swift in Sources */,
 				D7CE2DA2233227D400E4434B /* Category.swift in Sources */,
+				D7CE2DD7233383BF00E4434B /* CategoryCell.swift in Sources */,
 				D7CE2DAB2332368300E4434B /* APIService.swift in Sources */,
 				D7CE2DD123325CFD00E4434B /* CategoriesViewModel.swift in Sources */,
 				D7CE2DA42332290400E4434B /* Dispatcher.swift in Sources */,

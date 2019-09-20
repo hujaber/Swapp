@@ -46,7 +46,7 @@ final class APIService: ExecutableService {
     }
     
     func fetchStoresForCategoryId(_ id: Int) -> Observable<[Store]> {
-        let request = StoreRequest(categoryId: 2)
+        let request = StoreRequest(categoryId: id)
         let op = DefaultOperation<APIArrayResponse<Store>>(request: request)
         return execute(operation: op).map({$0.data})
     }

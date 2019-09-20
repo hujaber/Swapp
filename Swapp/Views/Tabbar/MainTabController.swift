@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import RxSwift
 
-class MainTabController: UITabBarController {
+final class MainTabController: UITabBarController {
     
     private enum Controllers: Int, CaseIterable {
         case home = 0
@@ -28,19 +29,8 @@ class MainTabController: UITabBarController {
         }
     }
     
-    private lazy var categoriesController: UINavigationController = {
-        let controller = CategoriesController.controllerInStoryboard(.Categories)
-        let navigationController = UINavigationController(rootViewController: controller)
-        navigationController.navigationBar.prefersLargeTitles = true
-        return navigationController
-    }()
-    
-    private lazy var searchController: UINavigationController = {
-        let controller = SearchController.controllerInStoryboard(.Search)
-        let navigationController = UINavigationController(rootViewController: controller)
-        navigationController.navigationBar.prefersLargeTitles = true
-        return navigationController
-    }()
+    private let categoriesCoordinator: CategoriesCoordinator = .init()
+    private let searchCoordinator: SearchCoordinator = .init()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,7 +39,7 @@ class MainTabController: UITabBarController {
     }
 
     private func setupControllers() {
-        setViewControllers([categoriesController, searchController], animated: true)
+        setViewControllers([categoriesCoordinator.rootController, searchCoordinator.rootController], animated: true)
     }
     
     private func setupTabBar() {
@@ -62,8 +52,6 @@ class MainTabController: UITabBarController {
         Controllers
             .allCases
             .forEach({ tabBar.items?[$0.rawValue].title = $0.title })
- 
-        
     }
 
 }
