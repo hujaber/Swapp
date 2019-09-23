@@ -8,8 +8,6 @@
 
 import Foundation
 
-//categories: https://api.myjson.com/bins/15lssp
-// stores by category id: https://api.myjson.com/bins/7q8h5  
 //store items: https://api.myjson.com/bins/1f6vmx
 
 struct CategoriesRequest: Request {
@@ -21,7 +19,7 @@ struct CategoriesRequest: Request {
 struct StoreRequest: Request {
     let categoryId: Int
     var path: String {
-        "718h5"
+        "7q8h5"
     }
 }
 

@@ -108,10 +108,5 @@ enum SerializationError: Swift.Error {
     case missing(APIKey)
 }
 
-enum APIKey: String {
-    case data
-    case status
-}
-
 
 

@@ -12,11 +12,17 @@
 		D782AACD2334C1F400FC28F9 /* CategoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AACC2334C1F400FC28F9 /* CategoriesCoordinator.swift */; };
 		D782AACF2334C47300FC28F9 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AACE2334C47300FC28F9 /* SearchCoordinator.swift */; };
 		D782AAD22334CD2700FC28F9 /* StoresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AAD12334CD2700FC28F9 /* StoresController.swift */; };
+		D782AAD52337875300FC28F9 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AAD42337875300FC28F9 /* Cart.swift */; };
+		D782AAD7233793DC00FC28F9 /* CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AAD6233793DC00FC28F9 /* CartTests.swift */; };
+		D782AAD923379A8000FC28F9 /* StoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AAD823379A8000FC28F9 /* StoresViewModel.swift */; };
+		D782AADD2337A1E000FC28F9 /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AADB2337A1E000FC28F9 /* StoreCell.swift */; };
+		D782AADE2337A1E000FC28F9 /* StoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D782AADC2337A1E000FC28F9 /* StoreCell.xib */; };
+		D782AAE02337A60D00FC28F9 /* Extensions+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AADF2337A60D00FC28F9 /* Extensions+Rx.swift */; };
+		D782AAE22338AE9800FC28F9 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AAE12338AE9800FC28F9 /* APIKey.swift */; };
 		D7CE2D592330E64200E4434B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D582330E64200E4434B /* AppDelegate.swift */; };
 		D7CE2D602330E64200E4434B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2D5E2330E64200E4434B /* Main.storyboard */; };
 		D7CE2D622330E64400E4434B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2D612330E64400E4434B /* Assets.xcassets */; };
 		D7CE2D652330E64400E4434B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2D632330E64400E4434B /* LaunchScreen.storyboard */; };
-		D7CE2D702330E64400E4434B /* SwappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D6F2330E64400E4434B /* SwappTests.swift */; };
 		D7CE2D7C2331154700E4434B /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D7B2331154700E4434B /* ApplicationCoordinator.swift */; };
 		D7CE2D80233117C200E4434B /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D7F233117C200E4434B /* CategoriesController.swift */; };
 		D7CE2D832331180900E4434B /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D822331180900E4434B /* Storyboard.swift */; };
@@ -61,6 +67,13 @@
 		D782AACC2334C1F400FC28F9 /* CategoriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCoordinator.swift; sourceTree = "<group>"; };
 		D782AACE2334C47300FC28F9 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
 		D782AAD12334CD2700FC28F9 /* StoresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresController.swift; sourceTree = "<group>"; };
+		D782AAD42337875300FC28F9 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		D782AAD6233793DC00FC28F9 /* CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
+		D782AAD823379A8000FC28F9 /* StoresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresViewModel.swift; sourceTree = "<group>"; };
+		D782AADB2337A1E000FC28F9 /* StoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
+		D782AADC2337A1E000FC28F9 /* StoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreCell.xib; sourceTree = "<group>"; };
+		D782AADF2337A60D00FC28F9 /* Extensions+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Rx.swift"; sourceTree = "<group>"; };
+		D782AAE12338AE9800FC28F9 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		D7CE2D552330E64200E4434B /* Swapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CE2D582330E64200E4434B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CE2D5F2330E64200E4434B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +81,6 @@
 		D7CE2D642330E64400E4434B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7CE2D662330E64400E4434B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7CE2D6B2330E64400E4434B /* SwappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7CE2D6F2330E64400E4434B /* SwappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappTests.swift; sourceTree = "<group>"; };
 		D7CE2D712330E64400E4434B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7CE2D7B2331154700E4434B /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		D7CE2D7F233117C200E4434B /* CategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
@@ -137,9 +149,28 @@
 		D782AAD02334CD0D00FC28F9 /* StoresView */ = {
 			isa = PBXGroup;
 			children = (
+				D782AADA2337A1C600FC28F9 /* UI */,
 				D782AAD12334CD2700FC28F9 /* StoresController.swift */,
+				D782AAD823379A8000FC28F9 /* StoresViewModel.swift */,
 			);
 			path = StoresView;
+			sourceTree = "<group>";
+		};
+		D782AAD32337874A00FC28F9 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				D782AAD42337875300FC28F9 /* Cart.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		D782AADA2337A1C600FC28F9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D782AADB2337A1E000FC28F9 /* StoreCell.swift */,
+				D782AADC2337A1E000FC28F9 /* StoreCell.xib */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		D7CE2D4C2330E64200E4434B = {
@@ -165,6 +196,7 @@
 		D7CE2D572330E64200E4434B /* Swapp */ = {
 			isa = PBXGroup;
 			children = (
+				D782AAD32337874A00FC28F9 /* Cart */,
 				D7CE2D7A2330E68100E4434B /* Application */,
 				D7CE2D612330E64400E4434B /* Assets.xcassets */,
 				D7CE2D862331188B00E4434B /* Extensions */,
@@ -180,8 +212,8 @@
 		D7CE2D6E2330E64400E4434B /* SwappTests */ = {
 			isa = PBXGroup;
 			children = (
-				D7CE2D6F2330E64400E4434B /* SwappTests.swift */,
 				D7CE2D712330E64400E4434B /* Info.plist */,
+				D782AAD6233793DC00FC28F9 /* CartTests.swift */,
 			);
 			path = SwappTests;
 			sourceTree = "<group>";
@@ -233,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				D7CE2D87233118CF00E4434B /* UIViewController+Extensions.swift */,
+				D782AADF2337A60D00FC28F9 /* Extensions+Rx.swift */,
 				D7CE2D89233119AF00E4434B /* UITableView+Extensions.swift */,
 			);
 			path = Extensions;
@@ -260,6 +293,7 @@
 				D7CE2D9D2332267700E4434B /* Requests */,
 				D7CE2D96233222E300E4434B /* Infrastracture */,
 				D7CE2DAA2332368300E4434B /* APIService.swift */,
+				D782AAE12338AE9800FC28F9 /* APIKey.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -400,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7CE2D652330E64400E4434B /* LaunchScreen.storyboard in Resources */,
+				D782AADE2337A1E000FC28F9 /* StoreCell.xib in Resources */,
 				D7CE2DD8233383BF00E4434B /* CategoryCell.xib in Resources */,
 				D7CE2D622330E64400E4434B /* Assets.xcassets in Resources */,
 				D7CE2D852331183C00E4434B /* Categories.storyboard in Resources */,
@@ -488,20 +523,25 @@
 			files = (
 				D7CE2D9F2332268300E4434B /* CategoriesRequests.swift in Sources */,
 				D7CE2D832331180900E4434B /* Storyboard.swift in Sources */,
+				D782AAD52337875300FC28F9 /* Cart.swift in Sources */,
 				D7CE2DA82332308100E4434B /* HTTPOperation.swift in Sources */,
 				D7CE2D9C2332241A00E4434B /* SessionConfiguration.swift in Sources */,
 				D782AACD2334C1F400FC28F9 /* CategoriesCoordinator.swift in Sources */,
 				D782AAD22334CD2700FC28F9 /* StoresController.swift in Sources */,
 				D7CE2D80233117C200E4434B /* CategoriesController.swift in Sources */,
+				D782AAD923379A8000FC28F9 /* StoresViewModel.swift in Sources */,
 				D7CE2D8D23311BF600E4434B /* MainTabController.swift in Sources */,
 				D7CE2D9A233223BC00E4434B /* NetworkSession.swift in Sources */,
 				D782AACF2334C47300FC28F9 /* SearchCoordinator.swift in Sources */,
 				D7CE2D902331252400E4434B /* SearchController.swift in Sources */,
 				D7CE2D88233118CF00E4434B /* UIViewController+Extensions.swift in Sources */,
+				D782AADD2337A1E000FC28F9 /* StoreCell.swift in Sources */,
 				D7CE2DA6233229CA00E4434B /* Response.swift in Sources */,
 				D7CE2D8A233119AF00E4434B /* UITableView+Extensions.swift in Sources */,
 				D7CE2D592330E64200E4434B /* AppDelegate.swift in Sources */,
 				D7CE2D952332222000E4434B /* Request.swift in Sources */,
+				D782AAE22338AE9800FC28F9 /* APIKey.swift in Sources */,
+				D782AAE02337A60D00FC28F9 /* Extensions+Rx.swift in Sources */,
 				D7CE2D7C2331154700E4434B /* ApplicationCoordinator.swift in Sources */,
 				D7CE2D98233222FC00E4434B /* Environment.swift in Sources */,
 				D7CE2DD32332609200E4434B /* Store.swift in Sources */,
@@ -517,7 +557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7CE2D702330E64400E4434B /* SwappTests.swift in Sources */,
+				D782AAD7233793DC00FC28F9 /* CartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

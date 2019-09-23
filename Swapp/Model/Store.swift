@@ -8,12 +8,6 @@
 
 import Foundation
 
-//"id": 1,
-//          "category_id": 2,
-//          "name": "Burger Man",
-//          "description": "International Food",
-//          "store_cover": "{url}",
-//          "store_logo": "{url}"
 struct Store: InitableFromDictionary {
     let categoryId: Int
     let name: String
@@ -22,10 +16,16 @@ struct Store: InitableFromDictionary {
     let storeLogoImageUrl: String?
     
     init(fromDictionary dictionary: [String : Any]) throws {
-        self.categoryId = dictionary["category_id"] as! Int
-        self.name = ""
-        self.description = ""
-        self.storeLogoImageUrl = nil
-        self.storeCoverImageUrl = nil
+        guard let categoryId = dictionary[.category_id] as? Int
+            else { throw SerializationError.missing(.category_id) }
+        guard let name = dictionary[.name] as? String
+            else { throw SerializationError.missing(.name) }
+        guard let description = dictionary[.description] as? String
+            else { throw SerializationError.missing(.description) }
+        self.categoryId = categoryId
+        self.name = name
+        self.description = description
+        self.storeLogoImageUrl = dictionary[.store_cover] as? String
+        self.storeCoverImageUrl = dictionary[.store_logo] as? String
     }
 }

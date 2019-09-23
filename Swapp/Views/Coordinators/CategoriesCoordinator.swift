@@ -33,6 +33,7 @@ final class CategoriesCoordinator: Coordinator {
         let storesController = StoresController.controllerInStoryboard(.Categories)
         storesController.navigationItem.title = category.name
         storesController.navigationItem.largeTitleDisplayMode = .never
+        storesController.viewModel.category = category
         rootController.pushViewController(storesController, animated: true)
     }
     

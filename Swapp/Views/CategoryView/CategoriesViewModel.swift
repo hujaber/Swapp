@@ -13,7 +13,7 @@ import RxCocoa
 final class CategoriesViewModel {
     private let apiServices = APIService()
     private let disposeBag = DisposeBag()
-    let fetchedCategories = BehaviorRelay<[Category]>(value: [])
+    let fetchedCategories = BehaviorSubject<[Category]>(value: [])
     
     func fetchCategories() {
         apiServices

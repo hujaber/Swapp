@@ -29,6 +29,13 @@ class CategoriesController: UIViewController {
         tableView.register(CategoryCell.self)
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 80
+        
+        viewModel
+            .fetchedCategories
+            .map({ $0.count == 0})
+            .bind(to: rx.isLoading)
+            .disposed(by: disposeBag)
+        
         viewModel
             .fetchedCategories
             .bind(to: tableView

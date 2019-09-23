@@ -13,7 +13,13 @@ struct Category: InitableFromDictionary {
     let name: String
     
     init(fromDictionary dictionary: [String : Any]) throws {
-        self.id = dictionary["id"] as! Int
-        self.name = dictionary["name"] as! String
+        guard let id = dictionary[.id] as? Int
+            else {
+                throw SerializationError.missing(.id)
+        }
+        guard let name = dictionary[.name] as? String
+            else { throw SerializationError.missing(.name) }
+        self.id = id
+        self.name = name
     }
 }
