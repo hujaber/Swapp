@@ -34,7 +34,18 @@ final class CategoriesCoordinator: Coordinator {
         storesController.navigationItem.title = category.name
         storesController.navigationItem.largeTitleDisplayMode = .never
         storesController.viewModel.category = category
+        storesController.didSelectStore.bind { [weak self] in self?.showStoreItems(for: $0.categoryId)
+            #warning("Replace with store ID")
+        }.disposed(by: disposeBag)
         rootController.pushViewController(storesController, animated: true)
+    }
+    
+    private func showStoreItems(for storeId: Int) {
+        let storeItemsController = StoreItemsController.controllerInStoryboard(.Categories)
+        storeItemsController.viewModel.storeId = storeId
+        storeItemsController.navigationItem.title = ""
+        storeItemsController.navigationItem.largeTitleDisplayMode = .never
+        rootController.pushViewController(storeItemsController, animated: true)
     }
     
 }

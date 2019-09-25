@@ -9,6 +9,7 @@
 import Foundation
 
 struct Store: InitableFromDictionary {
+    
     let categoryId: Int
     let name: String
     let description: String

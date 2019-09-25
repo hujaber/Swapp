@@ -17,6 +17,10 @@ enum APIKey: String {
     case description
     case store_cover
     case store_logo
+    case store_id
+    case items
+    case item_image
+    case price
 }
 
 //"id": 1,

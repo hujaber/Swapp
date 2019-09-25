@@ -1,9 +1,14 @@
 PODS:
-  - IQKeyboardManagerSwift (6.4.0)
-  - Kingfisher (5.7.0)
+  - Differentiator (4.0.1)
+  - IQKeyboardManagerSwift (6.4.2)
+  - Kingfisher (5.7.1)
   - RxCocoa (5.0.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
@@ -13,26 +18,31 @@ DEPENDENCIES:
   - IQKeyboardManagerSwift
   - Kingfisher
   - RxCocoa
+  - RxDataSources (~> 4.0)
   - RxSwift
   - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Differentiator
     - IQKeyboardManagerSwift
     - Kingfisher
     - RxCocoa
+    - RxDataSources
     - RxRelay
     - RxSwift
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  IQKeyboardManagerSwift: ed9b04ee0e3067ffba543283462d619f944b05e5
-  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  IQKeyboardManagerSwift: 79a3ec200dfb41cb66a89b8575417b5378107c5d
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: cbdf7fe56ddef6f5f080e5df80b9f44ca2b1bb22
+PODFILE CHECKSUM: 86ecf689f2fcd54e04a3608df281981ccee8d2f1
 
 COCOAPODS: 1.7.4

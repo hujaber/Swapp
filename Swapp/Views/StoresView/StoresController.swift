@@ -14,6 +14,7 @@ class StoresController: UIViewController {
     @IBOutlet private weak var tableView: UITableView!
     let viewModel = StoresViewModel()
     private let disposeBag = DisposeBag()
+    let didSelectStore = PublishSubject<Store>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,8 +34,14 @@ class StoresController: UIViewController {
         viewModel
             .fetchedStores
             .bind(to: tableView.rx.items(cellIdentifier: StoreCell.reuseIdentifier, cellType: StoreCell.self)) { row, store, cell in
-                cell.textLabel?.text = String(store.categoryId)
+                cell.setupWithStore(store)
         }
         .disposed(by: disposeBag)
+        
+        tableView
+            .rx
+            .modelSelected(Store.self)
+            .bind(to: didSelectStore)
+            .disposed(by: disposeBag)
     }
 }

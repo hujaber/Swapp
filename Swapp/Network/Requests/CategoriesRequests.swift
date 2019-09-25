@@ -23,4 +23,11 @@ struct StoreRequest: Request {
     }
 }
 
+struct StoreItemsRequest: Request {
+    let storeId: Int
+    var path: String {
+        "1f6vmx"
+    }
+}
+
 

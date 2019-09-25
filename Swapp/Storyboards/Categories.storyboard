@@ -68,5 +68,35 @@
             </objects>
             <point key="canvasLocation" x="1331" y="143"/>
         </scene>
+        <!--Store Items Controller-->
+        <scene sceneID="VWg-rK-dfu">
+            <objects>
+                <viewController storyboardIdentifier="StoreItemsController" id="sA7-p3-jmx" customClass="StoreItemsController" customModule="Swapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dF0-AX-VC1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ghv-aS-rZG">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ghv-aS-rZG" firstAttribute="leading" secondItem="kwJ-X2-kNO" secondAttribute="leading" id="YF0-8S-b3G"/>
+                            <constraint firstItem="kwJ-X2-kNO" firstAttribute="trailing" secondItem="ghv-aS-rZG" secondAttribute="trailing" id="Zv8-FG-mGC"/>
+                            <constraint firstItem="kwJ-X2-kNO" firstAttribute="bottom" secondItem="ghv-aS-rZG" secondAttribute="bottom" id="lwa-St-4sO"/>
+                            <constraint firstItem="ghv-aS-rZG" firstAttribute="top" secondItem="kwJ-X2-kNO" secondAttribute="top" id="oDk-eh-jgr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kwJ-X2-kNO"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="ghv-aS-rZG" id="jS4-2Q-0DC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Hl-Ef-Fsn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2097" y="143"/>
+        </scene>
     </scenes>
 </document>

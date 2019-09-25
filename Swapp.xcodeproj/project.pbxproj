@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		95D77E38E2FAC96EDAECF5BF /* Pods_Swapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F43E8D98D89C2913CF1F47A /* Pods_Swapp.framework */; };
 		97FD060B5C478AB4A84792AD /* Pods_SwappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C32532F4D7897F0AAE9F12 /* Pods_SwappTests.framework */; };
+		D760FC53233B719100A7DD0F /* StoreItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760FC52233B719100A7DD0F /* StoreItems.swift */; };
+		D760FC56233B77D400A7DD0F /* StoreItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760FC55233B77D400A7DD0F /* StoreItemsController.swift */; };
+		D760FC58233B79C800A7DD0F /* StoreItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760FC57233B79C800A7DD0F /* StoreItemsViewModel.swift */; };
 		D782AACD2334C1F400FC28F9 /* CategoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AACC2334C1F400FC28F9 /* CategoriesCoordinator.swift */; };
 		D782AACF2334C47300FC28F9 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AACE2334C47300FC28F9 /* SearchCoordinator.swift */; };
 		D782AAD22334CD2700FC28F9 /* StoresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AAD12334CD2700FC28F9 /* StoresController.swift */; };
@@ -19,6 +22,7 @@
 		D782AADE2337A1E000FC28F9 /* StoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D782AADC2337A1E000FC28F9 /* StoreCell.xib */; };
 		D782AAE02337A60D00FC28F9 /* Extensions+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AADF2337A60D00FC28F9 /* Extensions+Rx.swift */; };
 		D782AAE22338AE9800FC28F9 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782AAE12338AE9800FC28F9 /* APIKey.swift */; };
+		D782AAE42338BA2000FC28F9 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = D782AAE32338BA2000FC28F9 /* 123.png */; };
 		D7CE2D592330E64200E4434B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE2D582330E64200E4434B /* AppDelegate.swift */; };
 		D7CE2D602330E64200E4434B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2D5E2330E64200E4434B /* Main.storyboard */; };
 		D7CE2D622330E64400E4434B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CE2D612330E64400E4434B /* Assets.xcassets */; };
@@ -64,6 +68,9 @@
 		0AD2BFCB56ABE231CC7A267F /* Pods-Swapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swapp.release.xcconfig"; path = "Target Support Files/Pods-Swapp/Pods-Swapp.release.xcconfig"; sourceTree = "<group>"; };
 		7C453000D5EAA2ADD9939687 /* Pods-SwappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwappTests.debug.xcconfig"; path = "Target Support Files/Pods-SwappTests/Pods-SwappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F43E8D98D89C2913CF1F47A /* Pods_Swapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D760FC52233B719100A7DD0F /* StoreItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItems.swift; sourceTree = "<group>"; };
+		D760FC55233B77D400A7DD0F /* StoreItemsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemsController.swift; sourceTree = "<group>"; };
+		D760FC57233B79C800A7DD0F /* StoreItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemsViewModel.swift; sourceTree = "<group>"; };
 		D782AACC2334C1F400FC28F9 /* CategoriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCoordinator.swift; sourceTree = "<group>"; };
 		D782AACE2334C47300FC28F9 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
 		D782AAD12334CD2700FC28F9 /* StoresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresController.swift; sourceTree = "<group>"; };
@@ -74,6 +81,7 @@
 		D782AADC2337A1E000FC28F9 /* StoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreCell.xib; sourceTree = "<group>"; };
 		D782AADF2337A60D00FC28F9 /* Extensions+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Rx.swift"; sourceTree = "<group>"; };
 		D782AAE12338AE9800FC28F9 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		D782AAE32338BA2000FC28F9 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
 		D7CE2D552330E64200E4434B /* Swapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CE2D582330E64200E4434B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CE2D5F2330E64200E4434B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -137,6 +145,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D760FC54233B77BC00A7DD0F /* StoreItemsView */ = {
+			isa = PBXGroup;
+			children = (
+				D760FC55233B77D400A7DD0F /* StoreItemsController.swift */,
+				D760FC57233B79C800A7DD0F /* StoreItemsViewModel.swift */,
+			);
+			path = StoreItemsView;
+			sourceTree = "<group>";
+		};
 		D782AACB2334C1E600FC28F9 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +213,7 @@
 		D7CE2D572330E64200E4434B /* Swapp */ = {
 			isa = PBXGroup;
 			children = (
+				D782AAE32338BA2000FC28F9 /* 123.png */,
 				D782AAD32337874A00FC28F9 /* Cart */,
 				D7CE2D7A2330E68100E4434B /* Application */,
 				D7CE2D612330E64400E4434B /* Assets.xcassets */,
@@ -230,6 +248,7 @@
 		D7CE2D7D2331172600E4434B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D760FC54233B77BC00A7DD0F /* StoreItemsView */,
 				D7CE2D7E2331178C00E4434B /* CategoryView */,
 				D782AACB2334C1E600FC28F9 /* Coordinators */,
 				D7CE2D8E2331251300E4434B /* SearchView */,
@@ -325,6 +344,7 @@
 			children = (
 				D7CE2DA1233227D400E4434B /* Category.swift */,
 				D7CE2DD22332609200E4434B /* Store.swift */,
+				D760FC52233B719100A7DD0F /* StoreItems.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -440,6 +460,7 @@
 				D7CE2D852331183C00E4434B /* Categories.storyboard in Resources */,
 				D7CE2D602330E64200E4434B /* Main.storyboard in Resources */,
 				D7CE2D922331255F00E4434B /* Search.storyboard in Resources */,
+				D782AAE42338BA2000FC28F9 /* 123.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,13 +551,16 @@
 				D782AAD22334CD2700FC28F9 /* StoresController.swift in Sources */,
 				D7CE2D80233117C200E4434B /* CategoriesController.swift in Sources */,
 				D782AAD923379A8000FC28F9 /* StoresViewModel.swift in Sources */,
+				D760FC56233B77D400A7DD0F /* StoreItemsController.swift in Sources */,
 				D7CE2D8D23311BF600E4434B /* MainTabController.swift in Sources */,
 				D7CE2D9A233223BC00E4434B /* NetworkSession.swift in Sources */,
 				D782AACF2334C47300FC28F9 /* SearchCoordinator.swift in Sources */,
 				D7CE2D902331252400E4434B /* SearchController.swift in Sources */,
 				D7CE2D88233118CF00E4434B /* UIViewController+Extensions.swift in Sources */,
+				D760FC58233B79C800A7DD0F /* StoreItemsViewModel.swift in Sources */,
 				D782AADD2337A1E000FC28F9 /* StoreCell.swift in Sources */,
 				D7CE2DA6233229CA00E4434B /* Response.swift in Sources */,
+				D760FC53233B719100A7DD0F /* StoreItems.swift in Sources */,
 				D7CE2D8A233119AF00E4434B /* UITableView+Extensions.swift in Sources */,
 				D7CE2D592330E64200E4434B /* AppDelegate.swift in Sources */,
 				D7CE2D952332222000E4434B /* Request.swift in Sources */,

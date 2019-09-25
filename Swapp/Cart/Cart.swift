@@ -9,9 +9,11 @@
 import Foundation
 
 protocol CartItem {
-    var id: Int { get set }
-    var price: Double { get set }
+    var id: Int { get }
+    var price: Double { get }
     var count: Int { get set }
+    var description: String { get }
+    var imageUrl: String { get set }
 }
 
 
