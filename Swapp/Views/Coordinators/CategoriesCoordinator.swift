@@ -19,7 +19,7 @@ final class CategoriesCoordinator: Coordinator {
     
     init(with rootController: UINavigationController = .init()) {
         self.rootController = rootController
-        let categoriesController = CategoriesController.controllerInStoryboard(.Categories)
+        let categoriesController = CategoriesController()
         categoriesController
             .didSelectCategory
             .bind { [weak self] in self?.showStores(for: $0) }

@@ -14,6 +14,7 @@ protocol CartItem {
     var count: Int { get set }
     var description: String { get }
     var imageUrl: String { get set }
+    var name: String { get }
 }
 
 

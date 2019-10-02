@@ -30,7 +30,8 @@ class StoresController: UIViewController {
         tableView.tableFooterView = .init()
         tableView.estimatedRowHeight = 80
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.register(StoreCell.self)
+        tableView.separatorInset = .init(top: 0, left: 0, bottom: 0, right: 0)
+        tableView.register(StoreCell.self, forCellReuseIdentifier: StoreCell.reuseIdentifier)
         viewModel
             .fetchedStores
             .bind(to: tableView.rx.items(cellIdentifier: StoreCell.reuseIdentifier, cellType: StoreCell.self)) { row, store, cell in

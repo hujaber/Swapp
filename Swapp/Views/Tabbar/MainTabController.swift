@@ -49,9 +49,11 @@ final class MainTabController: UITabBarController {
             tabBar.unselectedItemTintColor = .gray
         }
         
+        tabBar.tintColor = .appThemeColor
+        
         Controllers
             .allCases
-            .forEach({ tabBar.items?[$0.rawValue].title = $0.title })
+            .forEach { tabBar.items?[$0.rawValue].title = $0.title }
     }
 
 }

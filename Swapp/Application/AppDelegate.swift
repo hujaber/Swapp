@@ -44,14 +44,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                   UINavigationBar
                       .appearance()
                     .barTintColor = .white
-                  UINavigationBar.appearance().tintColor = UIColor.white
+                  UINavigationBar.appearance().tintColor = UIColor.appThemeColor
                   UINavigationBar.appearance().isTranslucent = false
                   UINavigationBar
                       .appearance()
                       .titleTextAttributes = [
-                          NSAttributedString.Key.foregroundColor : UIColor.white
+                          NSAttributedString.Key.foregroundColor : UIColor.lightGray
                   ]
-                  UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+            UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.lightGray, NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 15)]
               }
     }
 

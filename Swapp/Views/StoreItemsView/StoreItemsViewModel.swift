@@ -21,6 +21,7 @@ final class StoreItemsViewModel {
     let fetchedItems = BehaviorSubject<[StoreCategories]>(value: [])
     
     private func fetchItems() {
+        // loading
         apiService
             .fetchStoreItems(storeId: storeId)
             .bind(to: fetchedItems)

@@ -42,6 +42,8 @@ struct StoreItem: CartItem, InitableFromDictionary {
     
     var imageUrl: String
     
+    var name: String
+    
     init(fromDictionary dictionary: [String : Any]) throws {
         guard let id = dictionary[.id] as? Int
             else { throw SerializationError.missing(.id) }
@@ -51,11 +53,14 @@ struct StoreItem: CartItem, InitableFromDictionary {
             else { throw SerializationError.missing(.description) }
         guard let imageUrl = dictionary[.item_image] as? String
             else { throw SerializationError.missing(.item_image) }
+        guard let name = dictionary[.name] as? String
+            else { throw SerializationError.missing(.name) }
         
         self.id = id
         self.price = price
         self.description = description
         self.imageUrl = imageUrl
+        self.name = name
     }
     
 }
